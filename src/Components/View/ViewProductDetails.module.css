@@ -1,0 +1,83 @@
+.leftContainer {
+  width: 48%;
+}
+.img {
+  width: 450px;
+  height: 450px;
+  align-self: center;
+}
+.newBtn {
+  background-color: #f7ad19;
+  border: none;
+  color: white;
+  padding: 4px 20px;
+  border-radius: 7px;
+  position: absolute;
+  top: 19px;
+  left: 15px;
+}
+.imgContainer {
+  position: relative;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  height: 454px;
+  display: flex;
+  justify-content: center;
+}
+.zoom {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+}
+.relatedImg {
+  width: 150px;
+  height: 150px;
+}
+.relatedImgContainer {
+  width: 30%;
+  width: 30%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  padding: 8px 8px;
+}
+.rightContainer {
+  width: 48%;
+}
+.heading {
+  font-size: 48px;
+}
+.reviewMembers {
+  padding-left: 15px;
+}
+.rate {
+  color: red;
+  font-weight: bold;
+  padding-top: 15px;
+}
+.arrow {
+  width: 23px;
+  height: 23px;
+}
+.pincodeContainer {
+  width: 40%;
+}
+.hr {
+  width: 40%;
+}
+.featureImg {
+  padding-right: 15px;
+}
+.cartBtn {
+  background-color: #429ebd;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 15px 56px;
+  border-radius: 50px;
+  height: 60px;
+  margin-left: 35px;
+}

@@ -1,0 +1,128 @@
+.titleParaContainer {
+  display: flex;
+  justify-content: center;
+}
+.titlePara {
+  text-align: center;
+  width: 59%;
+  color: rgba(0, 0, 0, 0.57);
+}
+.titleHeading {
+  text-align: center;
+}
+.ImgParentContainer {
+  width: 400px;
+  height: 530px;
+  margin-right: 32px;
+}
+.firstTitle {
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  margin-bottom: unset;
+}
+.secondDescription {
+  text-transform: capitalize;
+}
+.imgInnerDiv {
+  width: 80%;
+  height: 300px;
+  position: relative;
+}
+.innerBackRound {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  float: left;
+  margin-left: 58px;
+  margin-top: 50px;
+}
+.innerImg {
+  position: absolute;
+  left: 114px;
+  top: 106px;
+  max-width: 161px;
+  height: 160px;
+}
+.badge {
+  width: 87px;
+  height: 87px;
+  background-color: #ffcc66;
+  border-radius: 50%;
+  position: relative;
+  margin-top: 50px;
+  margin-left: 29px;
+}
+.dashedBadge {
+  width: 75px;
+  height: 75px;
+  border: 1px solid;
+  border-radius: 50%;
+  border-style: dashed;
+  position: absolute;
+  right: 6px;
+  top: 6px;
+}
+.badgeText {
+  text-transform: capitalize;
+  font-size: 27px;
+  font-weight: bold;
+  float: left;
+  margin-left: 12px;
+  margin-top: 14px;
+}
+.innerParent {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.productOffer {
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  color: #f27f0c;
+  text-align: center;
+  text-decoration: line-through;
+  padding-right: 20px;
+}
+.productOffer2 {
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+.shopNowBtn {
+  border: none;
+  color: red;
+  font-size: 22px;
+  background-color: #edf7fb;
+}
+.overallContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px) {
+  .titlePara {
+    width: 80%;
+  }
+  .ImgParentContainer {
+    margin-right: unset;
+  }
+  .overallContainer {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+  .titlePara {
+    width: 80%;
+  }
+  .ImgParentContainer {
+    margin-right: unset;
+  }
+  .overallContainer {
+    justify-content: center;
+  }
+}

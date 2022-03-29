@@ -1,0 +1,11 @@
+.checkbox {
+  overflow: auto;
+}
+.checkboxContainer {
+  height: 370px;
+  overflow: auto;
+  scrollbar-color: #429ebd #fff;
+}
+.input {
+  box-shadow: unset !important;
+}

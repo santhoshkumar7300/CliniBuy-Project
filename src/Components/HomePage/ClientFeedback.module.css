@@ -1,0 +1,161 @@
+.bgImg {
+  background: url("../../Assets/feedback_bg.svg") no-repeat;
+}
+.title {
+  font-size: 45px;
+  font-weight: bold;
+}
+.title2 {
+  font-size: 45px;
+  padding-left: 10px;
+}
+.titlePara {
+  text-align: center;
+  padding-top: 50px;
+}
+.description {
+  width: 50%;
+  text-align: center;
+}
+.descriptionParent {
+  display: flex;
+  justify-content: center;
+}
+.DetailsBg {
+  width: 65%;
+  height: 300px;
+  background: #f8f8f8;
+  border-radius: 13px;
+  position: relative;
+}
+.detailsParentContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+.details {
+  width: 68%;
+  height: 280px;
+  background-color: white;
+  border-radius: 17px;
+  position: absolute;
+  top: 11px;
+}
+.clientDetails {
+  width: 23%;
+  align-self: center;
+  padding-left: 20px;
+}
+.para {
+  margin-bottom: unset;
+}
+.feedback {
+  width: 75%;
+  text-align: center;
+  font-size: 15px;
+}
+.detailimg1 {
+  position: absolute;
+  right: 120px;
+  top: 50px;
+}
+.detailimg2 {
+  position: absolute;
+  bottom: 0;
+  left: 90px;
+}
+.leftArrow {
+  position: absolute;
+  left: -25px;
+}
+.rightArrow {
+  position: absolute;
+  right: -25px;
+}
+
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: 29px;
+  }
+  .title2 {
+    font-size: 29px;
+  }
+  .description {
+    width: 78%;
+  }
+  .DetailsBg {
+    width: 83%;
+    height: 246px;
+  }
+  .details {
+    width: 90%;
+    height: 221px;
+  }
+  .para {
+    font-size: 13px;
+  }
+  .clientDetails {
+    width: 40%;
+  }
+  .descriptionParent {
+    margin-top: 12px !important;
+  }
+  .feedback {
+    font-size: 11px;
+    margin-top: 16px;
+  }
+  .leftArrow {
+    width: 32px;
+    left: -17px;
+    top: 90px;
+  }
+  .rightArrow {
+    width: 32px;
+    right: -17px;
+    top: 90px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+  .title {
+    font-size: 29px;
+  }
+  .title2 {
+    font-size: 29px;
+  }
+  .description {
+    width: 78%;
+  }
+  .DetailsBg {
+    width: 83%;
+    height: 246px;
+  }
+  .details {
+    width: 90%;
+    height: 221px;
+  }
+  .para {
+    font-size: 13px;
+  }
+  .clientDetails {
+    width: 40%;
+  }
+  .descriptionParent {
+    margin-top: 12px !important;
+  }
+  .feedback {
+    font-size: 11px;
+    margin-top: 16px;
+  }
+  .leftArrow {
+    width: 32px;
+    left: -17px;
+    top: 90px;
+  }
+  .rightArrow {
+    width: 32px;
+    right: -17px;
+    top: 90px;
+  }
+}

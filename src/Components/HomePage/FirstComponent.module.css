@@ -1,0 +1,72 @@
+.bgColor {
+  background: rgba(66, 158, 189, 0.15) url("../../Assets/Background.svg");
+  height: 770px;
+  position: relative;
+}
+.InnerImg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.fristText {
+  font-size: 26px;
+  color: #f27f0c;
+}
+.secondText {
+  font-size: 59px;
+}
+.thirdText {
+  font-size: 50px;
+}
+.textContainer {
+  width: 41%;
+  float: left;
+  margin-top: 16%;
+  margin-left: 60px;
+}
+
+@media only screen and (max-width: 600px) {
+  .bgColor {
+    height: 468px;
+  }
+  .textContainer {
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 16px;
+  }
+  .fristText {
+    font-size: 15px;
+  }
+  .secondText {
+    font-size: 21px;
+  }
+  .thirdText {
+    font-size: 25px;
+  }
+  .InnerImg {
+    max-width: 65% !important;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+  .bgColor {
+    height: 468px;
+  }
+  .textContainer {
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 16px;
+  }
+  .fristText {
+    font-size: 15px;
+  }
+  .secondText {
+    font-size: 21px;
+  }
+  .thirdText {
+    font-size: 25px;
+  }
+  .InnerImg {
+    max-width: 65% !important;
+  }
+}

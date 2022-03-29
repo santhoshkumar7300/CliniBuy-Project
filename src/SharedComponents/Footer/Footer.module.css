@@ -1,0 +1,217 @@
+.bg {
+  background-color: #053f5c;
+  padding-top: 150px;
+}
+.aboutContainer {
+  width: 20%;
+}
+.aboutTile {
+  color: white;
+  margin-bottom: unset;
+}
+.aboutPara {
+  color: white;
+  padding-top: 13px;
+}
+.ulStyle {
+  padding-left: unset;
+}
+.liStyle {
+  display: flex;
+  list-style-type: none;
+  padding: 15px 0;
+}
+.aboutLocation {
+  margin-bottom: unset;
+  color: white;
+  padding-left: 15px;
+  font-size: 14px;
+}
+.customerContainer {
+  width: 20%;
+}
+.customerLi {
+  color: white;
+  list-style-type: none;
+  font-size: 15px;
+  padding: 10px 0;
+}
+.categoriesContainer {
+  width: 20%;
+}
+.newsletterInput {
+  background-color: #053f5c;
+  border: navajowhite;
+  color: white;
+  outline: unset;
+  padding: 17px 37px;
+}
+.newsletterInputDiv {
+  border: 1px solid gray;
+  display: flex;
+}
+.newsletterContainer {
+  width: 25%;
+}
+.newsletterPara {
+  color: white;
+  padding-top: 13px;
+  width: 78%;
+}
+.mailIconDiv {
+  width: 16%;
+  background-color: #f7ad19;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+}
+.mailIcon {
+  width: 35px;
+}
+.newsletterliStyle {
+  list-style-type: none;
+  padding: 15px 0;
+}
+.overallParent {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+}
+.copyrights {
+  background-color: #429ebd;
+}
+.copyrightPara {
+  margin-bottom: unset;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+}
+.deliveryPara {
+  margin-bottom: unset;
+  display: flex;
+  font-weight: bold;
+}
+.deliveryPara2 {
+  margin-bottom: unset;
+}
+.deliveryContainer {
+  padding-left: 30px;
+  align-self: center;
+}
+.hrStyle {
+  width: 3px;
+  height: 45px !important;
+}
+.overallFirstContainer {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+  margin-bottom: -100px;
+  background-color: white;
+  z-index: 100;
+  position: relative;
+}
+.imgStyle {
+  width: 50px;
+  height: 50px;
+  align-self: center;
+}
+.socialMedia {
+  width: 21%;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+}
+.socialMediaIcons {
+  width: 23px;
+}
+.socialMediaFb {
+  width: 10px;
+}
+.socialMediaParentCOntainer {
+  display: flex;
+}
+.paymentMode {
+  padding-top: 20px;
+}
+.paymentModeImg {
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .deliveryPara {
+    font-size: 8px;
+  }
+  .imgStyle {
+    width: 25px;
+    height: 25px;
+  }
+  .overallFirstContainer {
+    padding: 15px 0;
+  }
+  .deliveryContainer {
+    padding-left: 9px;
+  }
+  .overallParent {
+    flex-wrap: wrap;
+  }
+  .aboutContainer {
+    width: 40%;
+  }
+  .customerContainer {
+    width: 40%;
+  }
+  .categoriesContainer {
+    width: 40%;
+  }
+  .newsletterContainer {
+    width: 40%;
+  }
+  .newsletterInput {
+    width: 193px;
+    padding: 0;
+  }
+  .copyrightPara {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+  .deliveryPara {
+    font-size: 8px;
+  }
+  .imgStyle {
+    width: 25px;
+    height: 25px;
+  }
+  .overallFirstContainer {
+    padding: 15px 0;
+  }
+  .deliveryContainer {
+    padding-left: 9px;
+  }
+  .overallParent {
+    flex-wrap: wrap;
+  }
+  .aboutContainer {
+    width: 40%;
+  }
+  .customerContainer {
+    width: 40%;
+  }
+  .categoriesContainer {
+    width: 40%;
+  }
+  .newsletterContainer {
+    width: 40%;
+  }
+  .newsletterInput {
+    width: 233px;
+  }
+  .copyrightPara {
+    font-size: 13px;
+  }
+  .mailIconDiv {
+    width: 21%;
+  }
+}

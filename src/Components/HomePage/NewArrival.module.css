@@ -1,0 +1,102 @@
+.firstHr {
+  width: 15%;
+  color: #f7ad19;
+  height: 3px !important;
+  float: left;
+}
+.secondHr {
+  width: 85%;
+  float: left;
+  height: 3px !important;
+}
+.arrowImg {
+  width: 35px;
+  float: right;
+  cursor: pointer;
+}
+.productImg {
+  width: 265px;
+  height: 221px;
+  float: left;
+  position: absolute;
+  left: 17px;
+  bottom: 22px;
+}
+.productImgContainer {
+  width: 100%;
+  height: 270px;
+  background-color: #f2f2f2;
+  position: relative;
+  border-radius: 10px;
+}
+.productDescription {
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 20px;
+}
+.productOffer {
+  width: 100%;
+  font-size: 13px;
+  font-weight: bold;
+  color: #f27f0c;
+  text-align: center;
+  text-decoration: line-through;
+}
+.productOffer2 {
+  width: 100%;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+.productContainer {
+  width: 300px;
+  height: 366px;
+  margin-bottom: 50px;
+}
+.productParentContainer {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+}
+.productSearch {
+  width: 30px;
+  height: 30px;
+  align-self: center;
+}
+.productSearchContainer {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 8px;
+  background-color: white;
+  position: absolute;
+  right: 50px;
+  cursor: pointer;
+  bottom: 39px;
+  display: none;
+}
+.productImgContainer:hover .productSearchContainer {
+  display: flex;
+}
+.ratingContainer {
+  display: flex;
+  justify-content: center;
+}
+.options {
+  width: 23px;
+  height: 22px;
+  align-self: center;
+}
+.optionsHr {
+  height: 21px !important;
+  width: 2px;
+}
+
+@media only screen and (max-width: 600px) {
+  .productParentContainer {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,103 @@
+.bg {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 35px 0 35px 0;
+  border-radius: 10px;
+}
+.btn {
+  background-color: #053f5c;
+  border: none;
+  padding: 12px 27px;
+  color: white;
+  border-radius: 8px;
+}
+.leftContainer {
+  width: 40%;
+}
+.btnParent {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.para {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 7px;
+  padding-top: 20px;
+  margin-bottom: unset;
+  text-align: center;
+}
+.email {
+  border: none;
+  background-color: #f2f2f2;
+  padding-top: 8px;
+  border-bottom: 1px solid;
+  width: 100%;
+}
+.label {
+  width: 100%;
+  padding-top: 8px;
+  font-weight: bold;
+}
+.eye {
+  width: 20px;
+  cursor: pointer;
+}
+.inputPassword {
+  border: none;
+  background-color: #f2f2f2;
+  width: 95%;
+  outline: unset;
+}
+.inputParent {
+  border-bottom: 1px solid;
+  padding-top: 8px;
+}
+.radioContainer {
+  display: flex;
+  padding-top: 10px;
+  justify-content: space-between;
+}
+.radioLabel {
+  font-size: 13px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.radio {
+  align-self: center;
+}
+.forgotPassword {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+.loginBtn {
+  background-color: #f7ad19;
+  border: none;
+  padding: 10px 25px;
+  color: white;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+.alreadyAcc {
+  font-size: 14px;
+  padding-right: 5px;
+}
+.signin {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+.signinContainer {
+  padding-top: 8px;
+}
+.rightContainer {
+  width: 40%;
+}
+.rightContainerImg {
+  width: 550px;
+  height: 470px;
+}

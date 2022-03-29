@@ -1,0 +1,244 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #053f5c;
+  height: 71px;
+}
+.linkContainer {
+  align-self: center;
+}
+.link {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: arial;
+  font-size: 14px;
+  padding-right: 40px;
+}
+.search {
+  border: none;
+  outline: unset;
+  padding-left: 30px;
+  width: 432px;
+}
+.searchContainer {
+  display: flex;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 665px;
+  height: 72px;
+  padding: 5px 0;
+  float: left;
+  border-radius: 7px;
+  margin-left: 5%;
+}
+.titleContainer {
+  display: flex;
+  height: 72px;
+  width: 93%;
+  justify-content: space-around;
+}
+.logoImg {
+  width: 243px;
+  float: left;
+  margin-right: 30px;
+}
+.searchImgContainer {
+  width: 66px;
+  height: 61px;
+  display: flex;
+  justify-content: center;
+  background-color: #f7ad19;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+}
+.searchimg {
+  width: 27px;
+  align-self: center;
+}
+.callUs {
+  margin-bottom: unset;
+  width: 128px;
+  float: right;
+}
+.callContainer {
+  width: 170px;
+  float: left;
+  display: flex;
+  margin-right: 25px;
+  align-self: center;
+}
+.callParentContainer {
+  display: flex;
+  padding-left: 30px;
+}
+.mbl {
+  margin-bottom: unset;
+  width: 130px;
+  float: right;
+}
+.dropDown {
+  padding: 16px 25px 25px 25px;
+  box-shadow: unset;
+}
+.hrStyle {
+  height: 31px !important;
+  width: 2px;
+}
+.menubarStyle {
+  display: none;
+}
+.offcanvasCustom {
+  width: 34% !important;
+}
+.mblLinkContainer {
+  padding: 15px 0;
+}
+.user {
+  width: 33px;
+  height: 33px;
+  align-self: center;
+  display: none;
+}
+.userContainer {
+  display: flex;
+}
+.userMenu {
+  height: 34px;
+  align-self: center;
+}
+.menuContainer {
+  width: 42%;
+  display: flex;
+  justify-content: space-between;
+}
+.notificationParent {
+  display: flex;
+  width: 15%;
+  justify-content: space-between;
+}
+.notification {
+  display: none;
+  align-self: center;
+  position: relative;
+}
+.notificationBadge {
+  width: 20px;
+  background-color: green;
+  border-radius: 50%;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  right: 11px;
+  top: -7px;
+}
+.notificationCount {
+  font-size: 13px;
+}
+
+@media only screen and (max-width: 600px) {
+  .linkContainer {
+    display: none;
+  }
+  .menubarStyle {
+    display: block;
+    width: 35px;
+  }
+  .link {
+    color: black;
+  }
+  .user {
+    display: block;
+  }
+  .callParentContainer {
+    display: none;
+  }
+  .logoImg {
+    width: 100px;
+    margin-right: unset;
+  }
+  .searchContainer {
+    width: 300px;
+    align-self: center;
+    height: 40px;
+  }
+  .dropDown {
+    padding: unset;
+  }
+  .search {
+    width: 214px;
+    padding-left: 9px;
+  }
+  .hrStyle {
+    height: 17px !important;
+    align-self: center;
+  }
+  .searchImgContainer {
+    align-self: center;
+    width: 34px;
+    height: 40px;
+  }
+  .titleContainer {
+    justify-content: space-evenly;
+  }
+  .notification {
+    display: block;
+  }
+  .menuContainer {
+    width: 100%;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+  .linkContainer {
+    display: none;
+  }
+  .menubarStyle {
+    display: block;
+    width: 35px;
+  }
+  .link {
+    color: black;
+  }
+  .user {
+    display: block;
+  }
+  .callParentContainer {
+    display: none;
+  }
+  .logoImg {
+    width: 218px;
+    margin-right: unset;
+  }
+  .searchContainer {
+    width: 400px;
+    align-self: center;
+    height: 65px;
+  }
+  .dropDown {
+    padding: 10px 5px 25px 5px;
+  }
+  .search {
+    width: 214px;
+    padding-left: 9px;
+  }
+  .hrStyle {
+    height: 17px !important;
+    align-self: center;
+  }
+  .searchImgContainer {
+    align-self: center;
+    width: 62px;
+    height: 61px;
+  }
+  .titleContainer {
+    justify-content: space-evenly;
+  }
+  .notification {
+    display: block;
+  }
+  .menuContainer {
+    width: 100%;
+  }
+}

@@ -1,0 +1,32 @@
+.firstHr {
+  width: 15%;
+  color: #f7ad19;
+  height: 3px !important;
+  float: left;
+}
+.secondHr {
+  width: 85%;
+  float: left;
+  height: 3px !important;
+}
+.hrContainer {
+  width: 100%;
+  height: 30px;
+}
+.data {
+  background-color: #f2f2f2;
+  font-size: 12px;
+  padding: 11px 20px;
+  margin: 15px 18px 0 0;
+}
+.dataContainer {
+  float: left;
+  display: flex;
+  flex-wrap: wrap;
+}
+.overallParent {
+  border: 2px solid rgba(0, 0, 0, 0.05);
+  padding: 15px 15px;
+  height: 312px;
+  overflow: auto;
+}

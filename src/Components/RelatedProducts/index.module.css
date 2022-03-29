@@ -1,0 +1,21 @@
+.firstHr {
+  width: 15%;
+  color: #f7ad19;
+  height: 3px !important;
+  float: left;
+}
+.secondHr {
+  width: 85%;
+  float: left;
+  height: 3px !important;
+}
+.arrowImg {
+  width: 35px;
+  float: right;
+  cursor: pointer;
+}
+.img {
+  float: left;
+  display: flex;
+  justify-content: space-between;
+}

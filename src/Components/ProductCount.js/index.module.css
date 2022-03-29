@@ -1,0 +1,42 @@
+.container {
+  width: 32%;
+  border: 2px solid #f7ad19;
+  height: 60px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+.decreContainer {
+  position: absolute;
+  width: 50px;
+  background-color: #f7ad19;
+  height: 50px;
+  border-radius: 50%;
+  top: 2px;
+  left: 6px;
+  cursor: pointer;
+}
+.decreSymbol {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+}
+.increContainer {
+  position: absolute;
+  width: 50px;
+  background-color: #f7ad19;
+  height: 50px;
+  border-radius: 50%;
+  top: 2px;
+  right: 6px;
+  cursor: pointer;
+}
+.increSymbol {
+  font-size: 30px;
+  color: white;
+  margin-left: 16px;
+}
+.count {
+  color: rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,23 @@
+.bg {
+  background: url("../../Assets/blogBg.svg") no-repeat;
+  height: 400px;
+}
+.searchInput {
+  border: none;
+  background-color: #f2f2f2;
+  width: 93%;
+  outline: unset;
+}
+.searchContainer {
+  background-color: #f2f2f2;
+  padding: 15px 15px;
+}
+.searchIcon {
+  cursor: pointer;
+}
+.leftContainer {
+  width: 30%;
+}
+.rightContainer {
+  width: 65%;
+}

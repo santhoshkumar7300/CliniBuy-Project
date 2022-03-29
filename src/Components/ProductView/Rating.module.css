@@ -1,0 +1,9 @@
+.checkbox {
+  overflow: auto;
+}
+.input {
+  box-shadow: unset !important;
+}
+.star {
+  padding-right: 10px;
+}

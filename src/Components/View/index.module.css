@@ -1,0 +1,5 @@
+.bg {
+  background: rgba(66, 158, 189, 0.15) url("../../Assets/Background.svg");
+  height: 163px;
+  position: relative;
+}

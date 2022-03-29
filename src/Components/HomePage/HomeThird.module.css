@@ -1,0 +1,149 @@
+.docImgContainer {
+  width: 65%;
+  height: 650px;
+  float: left;
+  background: #04bfbf;
+  position: relative;
+  border-radius: 15px;
+}
+.docimg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 620px;
+}
+.btnColor {
+  background-color: #f5f29f;
+}
+.contentContainer {
+  width: 55%;
+  padding-top: 150px;
+  padding-left: 50px;
+}
+.firstContent {
+  color: #f5f29f;
+}
+.secondContent {
+  color: white;
+  font-size: 70px;
+  text-transform: uppercase;
+}
+.thirdContetnt {
+  color: #ebffff;
+  font-size: 33px;
+}
+.sideImgContainer {
+  height: 650px;
+  float: right;
+  width: 35%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-left: 29px;
+}
+.MainContainer {
+  height: 650px;
+}
+.sideImg {
+  margin-bottom: 27px;
+}
+.sidebg {
+  width: 465px;
+  height: 311px;
+  background: url("../../Assets/thirdImg2.svg");
+  margin-bottom: 27px;
+}
+.sidebg2 {
+  width: 465px;
+  height: 311px;
+  background: url("../../Assets/thirdImg1.svg");
+}
+.sideBtnColor {
+  background-color: #ffcc66;
+  font-weight: bold;
+}
+.sideFirstContent {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+.sideSecondDiv {
+  font-size: 21px;
+  width: 72%;
+  color: white;
+}
+.sideFirstContainer {
+  padding-top: 70px;
+  padding-left: 50px;
+}
+.sidePara {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+.sideSecondContainer {
+  padding-top: 70px;
+  padding-left: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .docImgContainer {
+    width: 100%;
+    height: 418px;
+  }
+  .docimg {
+    width: 360px;
+  }
+  .contentContainer {
+    width: 100%;
+    padding-top: 25px;
+  }
+  .secondContent {
+    font-size: 33px;
+  }
+  .thirdContetnt {
+    font-size: 24px;
+  }
+  .MainContainer {
+    padding: 0;
+  }
+  .sidebg {
+    height: 272px;
+    margin-top: 25px;
+  }
+  .sideImgContainer {
+    padding: 0;
+    width: 100%;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+  .docImgContainer {
+    width: 100%;
+    height: 418px;
+  }
+  .docimg {
+    width: 360px;
+  }
+  .contentContainer {
+    width: 100%;
+    padding-top: 25px;
+  }
+  .secondContent {
+    font-size: 33px;
+  }
+  .thirdContetnt {
+    font-size: 24px;
+  }
+  .MainContainer {
+    padding: 0;
+  }
+  .sidebg {
+    height: 272px;
+    margin-top: 25px;
+  }
+  .sideImgContainer {
+    padding: 0;
+    width: 100%;
+  }
+}

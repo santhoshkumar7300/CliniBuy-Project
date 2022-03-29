@@ -1,0 +1,16 @@
+.leftContainer {
+  width: 60%;
+  background-color: #f2f2f2;
+  padding: 15px 30px;
+  border-radius: 8px;
+}
+.offers {
+  padding-left: 15px;
+}
+.bg {
+  background: url("../../Assets/offer.svg");
+  width: 416px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+}
