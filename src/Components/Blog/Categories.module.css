@@ -27,3 +27,15 @@
   top: 0;
   background-color: white;
 }
+
+@media only screen and (max-width: 600px) {
+  .overallParent {
+    display: none;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+  .overallParent {
+    display: none;
+  }
+}

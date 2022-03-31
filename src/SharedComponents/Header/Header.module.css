@@ -89,7 +89,7 @@
   display: none;
 }
 .offcanvasCustom {
-  width: 34% !important;
+  width: 60% !important;
 }
 .mblLinkContainer {
   padding: 15px 0;
@@ -108,14 +108,14 @@
   align-self: center;
 }
 .menuContainer {
-  width: 42%;
+  width: 72% !important;
   display: flex;
   justify-content: space-between;
 }
 .notificationParent {
   display: flex;
-  width: 15%;
-  justify-content: space-between;
+  width: 20%;
+  justify-content: space-around;
 }
 .notification {
   display: none;
@@ -135,6 +135,23 @@
 }
 .notificationCount {
   font-size: 13px;
+}
+
+.dropDown {
+  width: 100%;
+  background-color: white;
+  color: black;
+  border: none;
+  font-size: 10px;
+  box-shadow: none !important;
+}
+.dropDown:focus{
+  box-shadow: none;
+}
+.dropdownParent{
+  width: 24%;
+display: flex;
+justify-content: center;
 }
 
 @media only screen and (max-width: 600px) {
@@ -159,16 +176,21 @@
     margin-right: unset;
   }
   .searchContainer {
-    width: 300px;
+    width: 65%;
     align-self: center;
     height: 40px;
   }
   .dropDown {
     padding: unset;
+    font-size: 10px !important;
+  }
+  .dropdownParent{
+    width: 35%;
   }
   .search {
-    width: 214px;
+    width: 65%;
     padding-left: 9px;
+    font-size: 2.5vw;
   }
   .hrStyle {
     height: 17px !important;
@@ -180,13 +202,19 @@
     height: 40px;
   }
   .titleContainer {
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
   .notification {
     display: block;
   }
   .menuContainer {
     width: 100%;
+  }
+  .logoContainer {
+    width: 15%;
+  }
+  .offcanvasCustom {
+    width: 45% !important;
   }
 }
 
@@ -219,8 +247,11 @@
   .dropDown {
     padding: 10px 5px 25px 5px;
   }
+  .dropdownParent{
+    width: 32%;
+  }
   .search {
-    width: 214px;
+    width: 50%;
     padding-left: 9px;
   }
   .hrStyle {
@@ -241,4 +272,38 @@
   .menuContainer {
     width: 100%;
   }
+  .offcanvasCustom {
+    width: 60% !important;
+  }
 }
+
+
+@media (min-width:769px) and (max-width:992px) {
+
+  .menuContainer{
+    width: 72 !important;
+  }
+  .linkContainer{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .search{
+    width: 47% !important;
+    font-size: 15px;
+  }
+  .logoImg{
+    width: 135px;
+  }
+  .callParentContainer{
+    width: 82% !important;
+  }
+  .searchContainer{
+    margin-left: unset !important;
+    width: 79% !important;
+  }
+  .dropdownParent{
+    width: 33% !important;
+  }
+  
+}
+

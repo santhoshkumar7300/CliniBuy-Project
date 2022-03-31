@@ -3,7 +3,11 @@ import offertag from "../../Assets/offerTag.svg";
 import callbg from "../../Assets/offer.svg";
 export default function Offers() {
   return (
-    <div className="mt-5 d-flex justify-content-between">
+    <div
+      className={
+        Styles.parentContainer + " mt-5 d-flex justify-content-between"
+      }
+    >
       <div className={Styles.leftContainer}>
         <h3 className="fw-bold">Offers</h3>
         <div className="mt-3">

@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import ProductBrand from "./Brand";
 import ProductViewCategories from "./Categories";
 import Country from "./Country";

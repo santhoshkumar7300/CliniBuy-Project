@@ -47,7 +47,7 @@ export default function Content() {
           <div className="d-flex mb-4 justify-content-between">
             <button className={Styles.readmoreBtn}>Read More</button>
             <div className="align-self-center">
-              <span>Share</span>
+              <span className={Styles.shareBtn}>Share</span>
               <img className={Styles.socialMedia} src={fb} alt="fb" />
               <img className={Styles.socialMedia} src={insta} alt="insta" />
               <img className={Styles.socialMedia} src={twitter} alt="twitter" />

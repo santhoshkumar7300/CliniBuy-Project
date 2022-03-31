@@ -12,7 +12,7 @@ export default function ProductViewCategories() {
           <hr className={Styles.secondHr} />
         </div>
       </div>
-      <p>Categories</p>
+      <p className={Styles.categoriestitle}>Categories</p>
       <div className={Styles.searchContainer}>
         <input
           className={Styles.searchInput}

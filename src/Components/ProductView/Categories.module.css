@@ -31,3 +31,12 @@
 .searchIcon {
   cursor: pointer;
 }
+
+
+@media only screen and (max-width:600px) {
+  .searchContainer{
+    width: 100%;
+  }
+  
+  
+}

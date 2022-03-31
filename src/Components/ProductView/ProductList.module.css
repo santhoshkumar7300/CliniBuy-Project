@@ -1,7 +1,16 @@
 .dropDown {
-  box-shadow: unset !important;
-  width: 59%;
+  width: 100%;
   background-color: white;
+  color: black;
+  border: none;
+  font-size: 15px;
+  box-shadow: none;
+}
+.dropDown:focus{
+  box-shadow: none;
+}
+.dropdownParent{
+  width: 61%;
 }
 .sortContainer {
   padding: 15px 15px;
@@ -26,4 +35,55 @@
   background-color: #429ebd;
   color: white;
   font-weight: bold;
+}
+.mblFilter{
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .filterContainer {
+    width: 57% !important;
+  }
+  .productlists {
+    justify-content: center !important;
+  }
+  .leftTitleContainer{
+    font-size: 12px;
+    width: 32%;
+  }
+  .dropDown:focus{
+    box-shadow: none;
+  }
+  .mblFilter{
+    display: block;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+  .filterContainer {
+    width: 30% !important;
+  }
+  .productlists {
+    justify-content: center !important;
+  }
+  .leftTitleContainer{
+    font-size: 12px;
+    width: 32%;
+  }
+  .dropDown:focus{
+    box-shadow: none;
+  }
+  .mblFilter{
+    display: block;
+  }
+}
+
+
+@media (min-width:769px) and (max-width:992px) {
+  .filterContainer{
+    width: 32% !important;
+  }
+  .leftTitleContainer{
+    align-self: center;
+  }
 }

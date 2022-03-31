@@ -51,3 +51,12 @@
   justify-content: center;
   width: 95%;
 }
+
+
+@media (min-width:769px) and (max-width:992px) {
+  .productImg{
+    width: 200px;
+    left: 7px;
+  }
+  
+}

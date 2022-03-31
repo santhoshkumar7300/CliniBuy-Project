@@ -1,0 +1,81 @@
+tr:nth-child(even) {
+  background: rgba(0, 0, 0, 0.02);
+}
+tr {
+  border-bottom: rgba(0, 0, 0, 0.02);
+}
+.reviewProfile {
+  padding-left: 25px;
+}
+.hr {
+  width: 2px;
+  height: 20px !important;
+}
+.starContainer1 {
+  width: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.starContainer2 {
+  width: 75px;
+  display: flex;
+  justify-content: space-around;
+}
+.starContainer3 {
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+.starContainer4 {
+  width: 120px;
+  display: flex;
+  justify-content: space-around;
+}
+.starContainer5 {
+  width: 140px;
+  display: flex;
+  justify-content: space-around;
+}
+.img {
+  width: 23px;
+}
+.input {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px 125px 10px 20px;
+  outline: unset;
+  background: rgba(0, 0, 0, 0.02);
+}
+.inputContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.textArea {
+  resize: none;
+  width: 100%;
+  height: 200px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  outline: unset;
+  padding: 10px 10px;
+  background: rgba(0, 0, 0, 0.02);
+}
+.sendMsgBtn {
+  background-color: #f7ad19;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 25px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 600px) {
+  .input {
+    padding: 10px 0 10px 5px;
+    width: 48%;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+  .input {
+    padding: 10px 62px 10px 20px;
+  }
+}

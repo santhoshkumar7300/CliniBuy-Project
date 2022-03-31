@@ -51,3 +51,9 @@
   height: 312px;
   overflow: auto;
 }
+
+@media only screen and (max-width: 600px) {
+  .overallParent {
+    display: none;
+  }
+}

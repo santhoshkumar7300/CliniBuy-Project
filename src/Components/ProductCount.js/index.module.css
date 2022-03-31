@@ -40,3 +40,51 @@
 .count {
   color: rgba(0, 0, 0, 0.5);
 }
+
+@media only screen and (max-width: 600px) {
+  .container {
+    height: 41px;
+    width: 40%;
+  }
+  .decreContainer {
+    width: 33px;
+    height: 33px;
+  }
+  .increContainer {
+    width: 33px;
+    height: 33px;
+  }
+  .decreSymbol {
+    font-size: 20px;
+    margin-left: 13px;
+  }
+  .increSymbol {
+    font-size: 20px;
+    margin-left: 12px;
+  }
+}
+
+
+@media (min-width:769px) and (max-width:992px) {
+  .container {
+    height: 41px;
+    width: 40%;
+  }
+  .decreContainer {
+    width: 33px;
+    height: 33px;
+  }
+  .increContainer {
+    width: 33px;
+    height: 33px;
+  }
+  .decreSymbol {
+    font-size: 20px;
+    margin-left: 13px;
+  }
+  .increSymbol {
+    font-size: 20px;
+    margin-left: 12px;
+  }
+  
+}

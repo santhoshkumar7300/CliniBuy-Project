@@ -69,7 +69,7 @@ export default function Header() {
             </Offcanvas.Body>
           </Offcanvas>
           <div className={Styles.userContainer}></div>
-          <div className={Styles.linkContainer} style={{ marginLeft: "70px" }}>
+          <div className={Styles.linkContainer}>
             <Link className={Styles.link} to="/home">
               Home
             </Link>
@@ -165,11 +165,11 @@ export default function Header() {
       </div>
 
       <div className={Styles.titleContainer + " container-fluid mt-4"}>
-        <div style={{ alignSelf: "center" }}>
+        <div style={{ alignSelf: "center" }} className={Styles.logoContainer}>
           <img className={Styles.logoImg} src={logo} alt="logo" />
         </div>
         <div className={Styles.searchContainer}>
-          <div>
+          {/* <div>
             <DropdownButton
               id="dropdown-basic-button"
               title="All Products"
@@ -179,6 +179,34 @@ export default function Header() {
             >
               <DropdownItem>Products</DropdownItem>
             </DropdownButton>
+          </div> */}
+          <div className={Styles.dropdownParent + " dropdown"}>
+            <button
+              className={Styles.dropDown + " btn dropdown-toggle"}
+              type="button"
+              id="dropdownMenuButton1"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              All Products
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li>
+                <a class="dropdown-item" href="#">
+                  Action
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  Another action
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  Something else here
+                </a>
+              </li>
+            </ul>
           </div>
           <hr className={Styles.hrStyle} />
           <input

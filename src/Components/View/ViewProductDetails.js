@@ -10,7 +10,11 @@ import feature from "../../Assets/feature.svg";
 import ProductCount from "../ProductCount.js";
 export default function ViewProductDetails() {
   return (
-    <div className="d-flex justify-content-between mt-5">
+    <div
+      className={
+        Styles.parentContainer + " d-flex justify-content-between mt-5"
+      }
+    >
       <div className={Styles.leftContainer}>
         <div className={Styles.imgContainer}>
           <button className={Styles.newBtn}>New</button>
@@ -47,7 +51,7 @@ export default function ViewProductDetails() {
         </div>
 
         <h2 className={Styles.rate}>₹2.85</h2>
-        <img src={dashedLine} alt="line" />
+        <img className="w-100" src={dashedLine} alt="line" />
         <div>
           <div className="d-flex justify-content-between">
             <div>
@@ -90,7 +94,9 @@ export default function ViewProductDetails() {
           <p className="fw-bold fs-4">In Stock</p>
           <div className="d-flex">
             <ProductCount />
-            <button className={Styles.cartBtn}>Add to cart</button>
+            <button className={Styles.cartBtn + " text-uppercase"}>
+              Add to cart
+            </button>
           </div>
         </div>
       </div>

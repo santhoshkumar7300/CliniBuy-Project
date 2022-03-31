@@ -1,4 +1,5 @@
 import RelatedProducts from "../RelatedProducts";
+import ProductViewDetails from "./Details";
 import Styles from "./index.module.css";
 import Offers from "./Offers";
 import ViewProductDetails from "./ViewProductDetails";
@@ -14,6 +15,7 @@ export default function View() {
       </div>
       <ViewProductDetails />
       <Offers />
+      <ProductViewDetails />
       <RelatedProducts />
     </div>
   );

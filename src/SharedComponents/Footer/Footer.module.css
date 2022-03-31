@@ -168,7 +168,7 @@
     width: 40%;
   }
   .newsletterInput {
-    width: 193px;
+    width: 119px;
     padding: 0;
   }
   .copyrightPara {
@@ -214,4 +214,12 @@
   .mailIconDiv {
     width: 21%;
   }
+}
+
+
+@media (min-width:769px) and (max-width:992px) {
+  .newsletterInput{
+    width: 84% !important;
+  }
+  
 }
