@@ -108,7 +108,7 @@
   align-self: center;
 }
 .menuContainer {
-  width: 72% !important;
+  width: 52%;
   display: flex;
   justify-content: space-between;
 }
@@ -281,7 +281,7 @@ justify-content: center;
 @media (min-width:769px) and (max-width:992px) {
 
   .menuContainer{
-    width: 72 !important;
+    width: 72% !important;
   }
   .linkContainer{
     margin-left: 0 !important;

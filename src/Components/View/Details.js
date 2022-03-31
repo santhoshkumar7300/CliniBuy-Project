@@ -57,7 +57,7 @@ export default function ProductViewDetails() {
                 <td>Description </td>
                 <td className="text-end w-50">
                   <span>Specifications:</span>
-                  <p>Quantity : 2 mlColor : Blue</p>
+                  <p className="m-0">Quantity : 2 mlColor : Blue</p>
                 </td>
               </tr>
               <tr>

@@ -203,3 +203,24 @@
     margin-top: 25px;
   }
 }
+
+
+@media (min-width:769px) and (max-width:992px) {
+  .detailsParentContainer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .leftParentContainer {
+    width: 100%;
+    height: unset;
+  }
+  .rightParentContainer {
+    width: 100%;
+    margin-top: 25px;
+  }
+.leftImg{
+  width: 500px;
+margin-left: 22%;
+height: 484px;
+}
+}

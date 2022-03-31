@@ -94,5 +94,12 @@
     height: 175px;
     margin-top: 15% !important;
   }
+  .firstLoopContainer{
+    width: 100%;
+    margin: 10px 0;
+  }
+  .loopContainer{
+    display: block;
+  }
   
 }
